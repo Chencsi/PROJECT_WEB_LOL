@@ -24,6 +24,25 @@ ol li{
   text-indent: 0.2cm;
   line-height: 20px;
 }
+iframe{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  transition: box-shadow 0.8s;
+}
+iframe:hover{
+  box-shadow: 0px 0px 5px white;
+}
+.downloadLink{
+  font-weight: bold;
+}
+.alert{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  transition: box-shadow 0.8s;
+}
+.alert:hover{
+  box-shadow: 0px 0px 5px white;
+}
 .author{
   color: rgba(255, 255, 255, 0.5);
 }
@@ -31,8 +50,8 @@ ol li{
   filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.50));
 }
 .kep{
-  box-shadow: 1px 1px 5px black;
-  transition: box-shadow 0.3s;
+  box-shadow: 0px 0px 10px black;
+  transition: box-shadow 0.8s;
   border-radius: 10px;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -42,8 +61,11 @@ ol li{
 }
 .kepek{
   border-radius: 10px;
-  border: solid 1px white;
-  box-shadow: 0px 0px 5px lightgreen;
+  box-shadow: 0px 0px 5px black;
+  transition: box-shadow 0.8s;
+}
+.kepek:hover{
+  box-shadow: 0px 0px 10px white;
 }
 .logo{
   width: 50px;
