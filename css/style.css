@@ -32,6 +32,38 @@ iframe{
 iframe:hover{
   box-shadow: 0px 0px 5px white;
 }
+label{
+  color: white;
+}
+table{
+  font-family: courier;
+}
+td, th{
+  text-align: center;
+}
+textarea{
+  resize: none;
+}
+#alert{
+  position: fixed;
+  width: 50vh;
+  bottom: 20px;
+  right: 25px;
+  z-index: 100;
+}
+#velemeny{
+  text-indent: 0;
+  font-family: courier;
+}
+#kapcsolat{
+  color: white;
+  font-family: courier;
+}
+.bg-custom{
+  background-color: #007E33;
+  border-radius: 6px;
+  color: white;
+}
 .downloadLink{
   font-weight: bold;
 }
